@@ -72,11 +72,18 @@ function App() {
             </main>
 
             <footer>
-                <Tile
-                    title='The Brand'
-                    text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum nisl ut lectus bibendum, vitae hendrerit odio posuere. Proin hendrerit, justo eget vestibulum fermentum, ex velit commodo justo, vel imperdiet elit eros eget nunc. Vestibulum malesuada elit ac risus efficitur, vel bibendum nisl cursus.
-'
-                />
+                <Tile title='The Brand'>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum nisl ut lectus
+                        bibendum, vitae hendrerit odio posuere. Proin hendrerit, justo eget vestibulum fermentum, ex
+                        velit commodo justo, vel imperdiet elit eros eget nunc. Vestibulum malesuada elit ac risus
+                        efficitur, vel bibendum nisl cursus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum nisl ut lectus
+                        bibendum, vitae hendrerit odio posuere. Proin hendrerit, justo eget vestibulum fermentum, ex
+                        velit commodo justo, vel imperdiet elit eros eget nunc. Vestibulum malesuada elit ac risus
+                        efficitur, vel bibendum nisl cursus.</p>
+                </Tile>
+
+
 
                 <Tile
                     image={brand}
@@ -92,11 +99,17 @@ function App() {
                     alt='ons verhaal'
                 />
 
-                <Tile
-                    title='Our story'
-                    text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum nisl ut lectus bibendum, vitae hendrerit odio posuere. Proin hendrerit, justo eget vestibulum fermentum, ex velit commodo justo, vel imperdiet elit eros eget nunc. Vestibulum malesuada elit ac risus efficitur, vel bibendum nisl cursus.
-'
-                />
+                <Tile title='The Brand'>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum nisl ut lectus
+                        bibendum, vitae hendrerit odio posuere. Proin hendrerit, justo eget vestibulum fermentum, ex
+                        velit commodo justo, vel imperdiet elit eros eget nunc. Vestibulum malesuada elit ac risus
+                        efficitur, vel bibendum nisl cursus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum nisl ut lectus
+                        bibendum, vitae hendrerit odio posuere. Proin hendrerit, justo eget vestibulum fermentum, ex
+                        velit commodo justo, vel imperdiet elit eros eget nunc. Vestibulum malesuada elit ac risus
+                        efficitur, vel bibendum nisl cursus.</p>
+                </Tile>
+
             </footer>
 
         </>

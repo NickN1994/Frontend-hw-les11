@@ -16,7 +16,7 @@ function Tile (props) {
             <>
                 <section>
                     <h2>{props.title}</h2>
-                    <p>{props.text}</p>
+                    {props.children}
                 </section>
             </>
 
